@@ -55,3 +55,5 @@ public class Dice {
 
 
 }//class
+
+// getTotal() is your Throw(), Robyn
