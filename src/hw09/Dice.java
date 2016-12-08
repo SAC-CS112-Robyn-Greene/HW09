@@ -49,3 +49,5 @@ public class Dice {
 
     }//void  
 }//class
+
+// getTotal() is your Throw(), Robyn
