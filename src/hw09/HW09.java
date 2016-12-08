@@ -17,7 +17,7 @@ public class HW09 {
 
     /**
      * @param args the command line arguments Implement an Dice game using
-     * objects Make sure to include constructor
+     * 
      *
      */
     public static void main(String[] args) {
@@ -28,6 +28,7 @@ public class HW09 {
         int rollOut = 0;
         Dice diceObject = new Dice();
         Dice myDice = new Dice();
+        //do a do...while for message and dice game
         do {
 
             myDice.displayMessage();
@@ -38,9 +39,11 @@ public class HW09 {
             System.out.println("Dice3 comes up " + diceObject.getDie3());
             rollOut++;
             int sum=diceObject.getDie1()+diceObject.getDie2()+diceObject.getDie3();
-            System.out.println("Total of dice is: "+sum);
-        } while (diceObject.getTotal() != 0);
+            System.out.println("Total of dice is: "+sum);           
+        } while (diceObject.getThrow() != 0);
         System.out.println("\nIt took " + rollOut + " rolls to get 2");
+       
+        
 
     }//main 
 

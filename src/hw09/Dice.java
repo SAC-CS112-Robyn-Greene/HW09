@@ -39,7 +39,7 @@ public class Dice {
         {
             return die3;
          }
-        public int getTotal()
+        public int getThrow()
         {
         
         return die1+die2+die3;
@@ -48,10 +48,4 @@ public class Dice {
         System.out.println("Guess a number ");
 
     }//void  
-        
-        
-        
-	//create a public "Throw" method here that only returns a random number
-
-
 }//class
